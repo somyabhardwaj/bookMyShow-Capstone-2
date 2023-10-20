@@ -1,5 +1,6 @@
 # Book My Show App
-
+## Netlify app Link
+[https://bookmyshow-by-somya.netlify.app](https://bookmyshow-by-somya.netlify.app/).
 ## Introduction
 
 Book My Show is a web application that allows users to easily book movie tickets and view their previous bookings. The application consists of a frontend hosted on Netlify and a backend hosted on Render.
@@ -26,8 +27,8 @@ The backend of this application relies on the following dependencies:
 
 ## Hosting
 
-- Frontend: The frontend of this application is hosted on Netlify at [https://bookmyshow11.netlify.app/](https://bookmyshow11.netlify.app/).
-- Backend: The backend of this application is hosted on Render at [https://capstone-project-1wft.onrender.com/api/bookings](https://capstone-project-1wft.onrender.com/api/bookings).
+- Frontend: The frontend of this application is hosted on Netlify at [https://bookmyshow-by-somya.netlify.app//](https://bookmyshow-by-somya.netlify.app).
+- Backend: The backend of this application is hosted on Render at [https://bms-backend-7bjf.onrender.com](https://bms-backend-7bjf.onrender.com).
 
 ## Environment Variables
 
