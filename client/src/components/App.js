@@ -1,15 +1,13 @@
-import React from "react";
-import '../styles/App.css';
-import '../styles/bootstrap.min.css'
-import Template from "./Template";
+import React from "react"; // Import the React library, which is necessary for React applications.
+import '../styles/App.css'; // Import the App-specific CSS stylesheet.
+import '../styles/bootstrap.min.css'; // Import the Bootstrap CSS stylesheet.
+import Template from "./Template"; // Import the Template component from the "./Template" file.
 
 const App = () => {
 
-  // write your code here
   return (<>
-    <Template />
+    <Template /> // Render the Template component inside the App component.
   </>);
 }
 
-
-export default App;
+export default App; // Export the App component so it can be used in other parts of the application.
