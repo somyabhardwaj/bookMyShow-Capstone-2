@@ -68,13 +68,23 @@ For local development, follow these steps:
 
 - Clone the repository.
 - Navigate to the `client` directory and run the following commands:
-cd client
-npm install
-npm start
+ ```
+ cd client
+ npm install
+ npm start
+
+```
 
 - For the backend, navigate to the `src` directory and run the following commands:
-cd src
+```
+cd server
 npm install
 npm start
+```
+## API Reference
 
+Base URL
+```https
+https://bms-backend-7bjf.onrender.com
+```
 Make sure to configure the environment variables as mentioned above.
