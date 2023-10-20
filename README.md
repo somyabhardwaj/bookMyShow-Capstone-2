@@ -1,5 +1,5 @@
 # Book My Show App
-## Netlify app Link
+## Netlify app link
 [https://bookmyshow-by-somya.netlify.app](https://bookmyshow-by-somya.netlify.app/).
 ## Introduction
 
