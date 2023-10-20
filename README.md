@@ -75,7 +75,7 @@ For local development, follow these steps:
 
 ```
 
-- For the backend, navigate to the `src` directory and run the following commands:
+- For the backend, navigate to the `server` directory and run the following commands:
 ```
 cd server
 npm install
