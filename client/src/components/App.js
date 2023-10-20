@@ -6,7 +6,7 @@ import Template from "./Template"; // Import the Template component from the "./
 const App = () => {
 
   return (<>
-    <Template /> // Render the Template component inside the App component.
+    <Template /> 
   </>);
 }
 

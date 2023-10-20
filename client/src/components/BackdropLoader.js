@@ -12,7 +12,8 @@ const BackdropLoader = ({ show }) => {
       centered // Center the modal on the screen.
       dialogClassName="backdrop-loader" // Apply the "backdrop-loader" class to the modal.
     >
-      <Spinner animation="border" variant="white" /> // Display a Spinner with border animation and a white color.
+   {/* Display a Spinner with border animation and a white color. */}
+      <Spinner animation="border" variant="white" /> 
     </Modal>
   );
 };
