@@ -1,157 +1,80 @@
+# Book My Show App
 
-# Hi, I'm Swati Chaudhary! 👋
+## Introduction
 
-I am Full stack Intern at Almabetter and this is my second project, on Book My Show
-# Book MyShow
+Book My Show is a web application that allows users to easily book movie tickets and view their previous bookings. The application consists of a frontend hosted on Netlify and a backend hosted on Render.
 
+## Frontend Dependencies
 
-This online platform makes it super easy to book movie tickets. It's designed to be user-friendly and hassle-free, allowing you to easily browse, choose, and buy tickets for movies. With BookMyShow, you can book your preferred movie, select the perfect time slot, and reserve your seats. Plus, you'll get all the important details about each movie, such as show timings and available seats.
+The frontend of this application utilizes the following dependencies:
 
+- **axios **: A promise-based HTTP client for making requests to the backend.
+- **bootstrap **: A popular CSS framework for creating responsive and stylish user interfaces.
+- **notistack **: A notification library for displaying user-friendly messages.
+- **react-bootstrap **: A library that combines React and Bootstrap components.
+- **react-dom **: A package for rendering React components in the browser.
+- **react-scripts **: A set of scripts and configuration for React applications.
+- **react-toastify **: A toast notification library for React applications.
 
-## Installation
+## Backend Dependencies
 
-If you want to work on this project , clone this repo
+The backend of this application relies on the following dependencies:
 
-```bash
-git clone "https://github.com/swatii7/capstone-backend-project.git"
+- **express **: A fast and minimal web framework for Node.js.
+- **mongodb **: The official MongoDB driver for Node.js.
+- **mongoose **: An elegant MongoDB object modeling tool for Node.js.
 
-```
+## Hosting
 
-Open this project on your local IDE and in the terminal do this commands one by one
-
- - For Frontend
-
- ```
- cd client
- npm install
- npm start
-
-```
-
-- For backend
-
-```
-cd src
-npm install
-npm start
-```
-In the backend you should connect with database server.
- This will start you frontend part on port - http://localhost:3000 and backend part running on port- http://localhost:8080 
-
-
-
-
-
-## API Reference
-
-Base URL
-```https
-https://capstone-project-1wft.onrender.com
-```
-
-Booking
-
-- get booking
-```http
-  GET /api/bookings
-```
-
-- post booking
-Returns a list of all bookings stored in the database in JSON format.
-
-```http
-  POST /api/bookings
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `movie`    | `string` | **Required**. selected movie |
-| `timeSlot`    | `string` | **Required**. selected time slot |
-| `seats`    | `string` | **Required**. selected seats |
-
-
-Returns the newly created booking in JSON format
-
-
-## Deployment
-Here is the links of deployed project
-
-- For Frontend
-
-```https
-https://bookmyshow11.netlify.app/
-
-```
-
-- For Backend
-
-```https
-https://capstone-project-1wft.onrender.com/api/bookings
-
-```
-
-By clicking on above links , you can see the project
-
-
-## How to Use
-
-
-1. click on below link
-
-
-```https
-[bookmyshowApp](https://bookmyshow11.netlify.app/)
-
-```
-2. select the movie you would like to watch.
-3. select timeslot .
-4. select any seat type and and number of seats would you like to booked.
-5. click on ```Book Now``` button. If you want to change any selected field, then do changes before booking it.
-
-After click on Book Now button you got succesfull booking message and ypur last booking details display on the screen under last booking details heading.
-
+- Frontend: The frontend of this application is hosted on Netlify at [https://bookmyshow11.netlify.app/](https://bookmyshow11.netlify.app/).
+- Backend: The backend of this application is hosted on Render at [https://capstone-project-1wft.onrender.com/api/bookings](https://capstone-project-1wft.onrender.com/api/bookings).
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to set up the following environment variables in your .env file:
 
-Note : your mongodb clustur connect key
-`API_KEY`
-
-# For Backend
-
-- MongoDb live connection string
-
-`MONGODBURI: mongodb+srv://<user_name>:<password>@mongodb_connection_string/database_name`
-
-- MongoDb local connection string (if you set application on localhost)
-
-`MONGODBURI = mongodb://localhost:27017/<database_name> `
-
-`COLLECTION_NAME = <collection_name>`
-
-- if application is running on localhost set node_env development
-or if it is on live set production
-`NODE_ENV =  development (development || production)`
-
-`APP_PORT = 8080 `
-
-- api routes path
-
-`GET_REQUEST = /api/booking`
-`POST_REQUEST = /api/booking`
-
-# For Frontend
-
-`REACT_APP_API_LOCAL_PATH = http://localhost:3000`
-
-`REACT_APP_API_LIVE_PATH = https://capstone-project-1wft.onrender.com`
+- `API_KEY`: Your MongoDB cluster connection key.
+- `MONGODBURI`: MongoDB live connection string.
+- `MONGODBURI (Local)`: MongoDB local connection string (if the application is running on localhost).
+- `COLLECTION_NAME`: Name of the MongoDB collection.
+- `NODE_ENV`: Set to `development` for local development or `production` for live deployment.
+- `APP_PORT`: Port number for the backend server.
+- `GET_REQUEST`: Path for GET requests.
+- `POST_REQUEST`: Path for POST requests.
 
 ## Tech Stack
 
-**Client:** React js, Bootstrap
+- **Client:** React.js, Bootstrap
+- **Server:** Node.js, Express
+- **Database:** MongoDB
 
-**Server:** Node, Express
+## Usage
 
-**database:** MongoDB
+1. Visit the Book My Show App frontend at [https://bookmyshow-by-somya.netlify.app](https://bookmyshow-by-somya.netlify.app/).
+2. Select the movie you would like to watch.
+3. Choose a time slot.
+4. Select your desired seat type and number of seats.
+5. Click the "Book Now" button to make a booking.
+6. After booking, you will receive a successful booking message, and your last booking details will be displayed on the screen under the "Last Booking Details" heading.
 
+## Deployment
+
+- [Frontend](https://bookmyshow-by-somya.netlify.app)
+- [Backend](https://bms-backend-7bjf.onrender.com)
+
+## Local Development
+
+For local development, follow these steps:
+
+- Clone the repository.
+- Navigate to the `client` directory and run the following commands:
+cd client
+npm install
+npm start
+
+- For the backend, navigate to the `src` directory and run the following commands:
+cd src
+npm install
+npm start
+
+Make sure to configure the environment variables as mentioned above.
