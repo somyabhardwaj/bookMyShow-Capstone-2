@@ -1,6 +1,10 @@
 # Book My Show App
 ## Netlify app link
 [https://bookmyshow-by-somya.netlify.app](https://bookmyshow-by-somya.netlify.app/).
+
+## Render.Com Link
+[https://bms-backend-7bjf.onrender.com.](https://bms-backend-7bjf.onrender.com)
+
 ## Introduction
 
 Book My Show is a web application that allows users to easily book movie tickets and view their previous bookings. The application consists of a frontend hosted on Netlify and a backend hosted on Render.
